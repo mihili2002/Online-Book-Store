@@ -1,0 +1,82 @@
+
+        .book {
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 60px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f6f7ff;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .book img {
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .book h3 {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .book p {
+        margin: 0;
+        color: #777;
+    }
+
+    .book form {
+        margin-top: 10px;
+    }
+
+    .book input[type="number"] {
+    width: 60px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+    .book input[type="submit"] {
+        display: block;
+        background-color: #1f971d;
+        color: #fff;
+        border: #1f971d;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .book input[type="submit"]:hover {
+        background-color: #555;
+    }
+    .search-form {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .search-form input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .search-form input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+ 

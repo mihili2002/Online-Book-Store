@@ -1,0 +1,48 @@
+
+/* CSS styles */
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #02014d;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #ccc;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

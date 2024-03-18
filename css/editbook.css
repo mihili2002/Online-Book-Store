@@ -1,0 +1,34 @@
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .container input[type="text"],
+        .container input[type="submit"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .container input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+   

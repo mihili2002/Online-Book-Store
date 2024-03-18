@@ -1,0 +1,308 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+ 
+}
+.img4{
+position: relative;
+left:-300px;
+top:10px;
+width:50px;
+height:50px;
+border-radius: 15px;
+}
+nav{
+  width:100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+ 
+  background-image: linear-gradient(rgb(10, 10, 10),rgb(40, 8, 100)); 
+}
+div.logos p{
+ font-size:30px;
+ font-weight:bold;
+ float: left;
+ color: aliceblue;
+ text-transform: uppercase;
+ letter-spacing: 1.5px; 
+ cursor:pointer;
+}
+nav ul{
+
+  float:right;
+}
+nav li{
+  display:inline-block;
+  list-style: name;
+ 
+}
+nav li a{
+   font-size: 18px;
+   text-transform: uppercase;
+   padding: 0px 30px;
+   color: antiquewhite;
+   
+  
+}
+nav li a:hover{
+background-color: rgb(228, 14, 14);
+border-radius: 10px;
+}
+/*--------------------------------------Header------------------------------------------*/
+/* Reset some default styles */
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #edf7f7;
+  box-sizing: border-box;
+ 
+}
+
+/* Container */
+.contain {
+  display: flex;
+  position: relative;
+  top:0px;
+  display:flex;
+  height: 350px;
+  width:200px;
+  
+  color: #110f0f;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  height: 1200px;
+ background-color: #4f2dac;
+  padding: 30px;
+  flex-direction: column;
+  border: 1px solid black;
+  box-shadow: inset15p,-5px rgba(0,0,0,0.5);
+}
+
+ 
+.sidebar h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fdfafa;
+  font-weight: bold;
+ 
+}
+.sidebar a:hover{
+background-color: rgb(228, 14, 14);
+border-radius: 5px;
+
+}
+
+
+.con h2 {
+  font-size: 30px;
+  font-family: inherit;
+  color: #2d0b00;
+  text-align: center;
+  position: relative;
+  top:-320px;
+  left: 50px;
+}
+.p3{
+  position: relative;
+  text-align: center;
+  top:-320px;
+  left: 50px;
+}
+.c{
+  position: relative;
+  top: -270px;
+  left:300px 
+}
+.box{
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+ 
+
+}
+.card{
+  width: 250px;
+  height: 150px;
+
+  background-color: antiquewhite;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.b{
+  position: relative;
+  top: -420px;
+  left:650px 
+}
+
+.e{
+  position: relative;
+  top: -560px;
+  left:1000px
+}
+.f{
+  position: relative;
+  top: -500px;
+  left:650px
+}
+
+ /*-----------------------------------------footer-------------------------------------------*/
+
+footer{
+  position: relative;
+  width:100%;
+  top:0px;
+ 
+
+  background: linear-gradient(to right,#00093c,#2d0b00);
+  color: #fff;
+  padding:5px 0 5px;
+  border-top-left-radius: 120px;
+  font-size: 13px;
+  line-height: 10px;
+}
+.row{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+ 
+}
+.col{
+  flex-basis: 20%;
+  padding: 1px;
+ 
+}
+.logo{
+  position: relative;
+  width: 80px;
+  height: 100px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+}
+.col h3{
+  width: fit-content;
+  margin-bottom: 50px;
+  position: relative;
+  left: -30px;
+  margin: 30px;
+  text-transform: none;
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.a{
+  list-style: none;
+  margin-left:0%;
+  margin-top: 6px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+form{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+form input{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.b2{
+    position: relative;
+   
+    margin: 5px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.img1{
+  width:30px;
+  height: 30px;
+  position: relative;
+  top:-25px;
+}
+.go{
+  width: 20px;
+  height: 20px;
+}
+.emailbtn{
+  width:25px;
+  height: 25px;
+  position: relative;
+  top: 40px;
+  right: 20px;
+}
+.hr2{
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  top:-20px;
+}
+.p2{
+  text-align: center;
+}
+.underline{
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+.underline span{
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  border-radius: 3px;
+  top:0;
+  left:10px;
+  animation: moving 2s linear infinite;
+
+}
+@keyframes moving{
+   0%{
+       left:-20px;
+  }
+  100%{
+    left:100%;
+  }
+}

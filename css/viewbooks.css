@@ -1,0 +1,86 @@
+/* Reset some default styling */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #09033a;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  div.logos p{
+ font-size:30px;
+ font-weight:bold;
+ float: left;
+ color: aliceblue;
+ text-transform: uppercase;
+ letter-spacing: 1.5px; 
+ cursor:pointer;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.btn {
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-view {
+    background-color: #007bff;
+}
+
+.btn-edit {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}

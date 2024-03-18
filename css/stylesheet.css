@@ -1,0 +1,35 @@
+/* Reset some default styling */
+html, body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #09033a;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #dcdcdc;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
